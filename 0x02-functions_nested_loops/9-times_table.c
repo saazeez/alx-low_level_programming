@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - Prints all possible combinations of single-digit numbers.
+ * _times_table - Prints all possible combinations of single-digit numbers.
  *
  * Return: Always 0.
  */
