@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * main - print _putchar
+ * main - Entry point
  * is written by saazeez
- * Return: 0
+ * Return: Always 0 (Success)
  */
 
 int main(void)
