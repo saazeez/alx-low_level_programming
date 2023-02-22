@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
  * main - Prints all possible combinations of single-digit numbers.
@@ -11,14 +11,14 @@ int main(void)
 
 	for (num = 0; num <= 9; num++)
 	{
-		putchar((num % 10) + '0');
+		_putchar((num % 10) + '0');
 		if (num == 9)
 			continue;
-		putchar(',');
-		putchar(' ');
+		_putchar(',');
+		_putchar(' ');
 	}
 
-	putchar('\n');
+	_putchar('\n');
 
 	return (0);
 }
